@@ -47,8 +47,6 @@ class Comment(Base):
 
 
 
-def to_dict(self):
-	return {}
 
 ## Draw from SQLAlchemy base
 render_er(Base, 'diagram.png')
