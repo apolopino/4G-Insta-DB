@@ -14,6 +14,7 @@ class User(Base):
 	username = Column(String(250), nullable=False, index=True)
 	firstname = Column(String(250), nullable=False)
 	lastname = Column(String(250), nullable=False)
+	address = Column(String(250))
 	email = Column(String(60), nullable=False, unique=True)
 
 class Follower(Base):
